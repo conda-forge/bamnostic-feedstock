@@ -29,7 +29,7 @@ test:
     - bamnostic
   requires:
     - pytest
-  coomands:
+  comands:
     - py.test 
     - py.test --doctest-modules -Wignore
 
