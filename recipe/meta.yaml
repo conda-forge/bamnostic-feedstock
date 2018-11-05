@@ -20,14 +20,18 @@ requirements:
   build:
     - python
     - pip
+    - setuptools
   run:
     - python
-    - pytest
-    - markdown
 
 test:
   imports:
     - bamnostic
+  requires:
+    - pytest
+  coomands:
+    - py.test 
+    - py.test --doctest-modules -Wignore
 
 about:
   home: https://github.com/betteridiot/bamnostic
