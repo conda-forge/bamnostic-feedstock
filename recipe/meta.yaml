@@ -26,10 +26,6 @@ requirements:
 test:
   imports:
     - bamnostic
-  requires:
-    - pytest
-  commands:
-    - python setup.py test
 
 about:
   home: https://github.com/betteridiot/bamnostic
