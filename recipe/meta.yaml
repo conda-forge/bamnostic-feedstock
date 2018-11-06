@@ -20,7 +20,6 @@ requirements:
   build:
     - python
     - pip
-    - setuptools
   run:
     - python
 
@@ -30,8 +29,7 @@ test:
   requires:
     - pytest
   commands:
-    - py.test 
-    - py.test --doctest-modules -Wignore
+    - python setup.py test
 
 about:
   home: https://github.com/betteridiot/bamnostic
