@@ -1,6 +1,6 @@
 {% set name = "bamnostic" %}
-{% set version = "1.0.7" %}
-{% set sha256 = "adae59c340577ae2b588cb4db4179be170c7202b90921e35df079c4fd20c52cb" %}
+{% set version = "1.0.9" %}
+{% set sha256 = "0b8065450909d4687efd6b611cbfec04192f5f8285cb9b3fccd7118930df6095" %}
 
 package:
   name: {{ name|lower }}
