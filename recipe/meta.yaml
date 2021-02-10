@@ -1,6 +1,6 @@
 {% set name = "bamnostic" %}
-{% set version = "1.1.4" %}
-{% set sha256 = "f23cf951a68383c4ba04417fecf7e96c2e195f1e2974f0c377eaed4804366e74" %}
+{% set version = "1.1.6" %}
+{% set sha256 = "19cec731529e3ad4d058c0171217d30000fa8dbe1ee82c6dc8bfee3d66e6a5ec" %}
 
 package:
   name: {{ name|lower }}
@@ -14,10 +14,10 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - setuptools
