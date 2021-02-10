@@ -117,6 +117,3 @@ Feedstock Maintainers
 * [@betteridiot](https://github.com/betteridiot/)
 * [@ericmjl](https://github.com/ericmjl/)
 
-
-<!-- dummy commit to enable rerendering -->
-
