@@ -4,5 +4,7 @@ bot:
 github:
   branch_name: main
   tooling_branch_name: main
+build:
+  number: 0
 conda_build:
   pkg_format: '2'
