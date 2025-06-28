@@ -1,6 +1,6 @@
 {% set name = "bamnostic" %}
-{% set version = "1.1.10" %}
-{% set sha256 = "2f7e7e5cb693c5f933c5b5c3fde49c6c8dee62b608ebd13a4604401573e37017" %}
+{% set version = "1.2" %}
+{% set sha256 = "8d7829223d8dab56505a62d6907d139c6b974806ee3269e7e3d3e390a186d911" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
